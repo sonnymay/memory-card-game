@@ -1,0 +1,47 @@
+/* src/components/Scoreboard.css */
+
+.scoreboard {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .scoreboard h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .scores {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 1.3rem;
+  }
+  
+  .score {
+    flex: 1;
+    text-align: left;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .best-score {
+    flex: 1;
+    text-align: right;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .scores p {
+    margin: 0;
+  }
+  
